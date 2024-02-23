@@ -1,0 +1,34 @@
+.footer {
+    background-color: lightgrey;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 10px;
+    color: rgba(0, 0, 255, 0.959);
+  }
+  
+  .nav {
+    margin-top: 5px;
+    
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    
+  }
+  
+  @media (max-width: 767px) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-item {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+  
